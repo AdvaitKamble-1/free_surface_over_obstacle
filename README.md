@@ -1,4 +1,4 @@
-# masters_thesis_predictive_modelling
+# Predictive Modelling of Interface Deformation Behaviour
 
 The purpose of this repository is to present the various post-processing Python scripts used in completing this project. It should be noted that these scripts are only applicable to the output binary files of the FDM solver as well as the resultant text files.
 
