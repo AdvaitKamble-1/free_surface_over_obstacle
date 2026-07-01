@@ -5,7 +5,7 @@ The purpose of this repository is to present the various post-processing Python 
 The structure of this repository is as follows:
 1. Validation Scripts:
 
-   a. bouscasse.py -> Corresponds to comparison of solver results with study by Bouscasse et al. (SPH Modelling of viscous flow past a circular cylinder interactin with a free-surface)
+   a. bouscasse_v2.py -> Corresponds to comparison of solver results with study by Bouscasse et al. (SPH Modelling of viscous flow past a circular cylinder interactin with a free-surface)
 
    b. reichl.py -> Corresponds to comparison of solver results with study by Reichl et al. (Flow past a cylinder close to a free-surface)
 3. Experimental Processing (Note: this is not processing experimental data, only extracting useful information from the binary obtained using the solver)
