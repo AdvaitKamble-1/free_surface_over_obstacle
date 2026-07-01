@@ -4,10 +4,12 @@ The purpose of this repository is to present the various post-processing Python 
 
 The structure of this repository is as follows:
 1. Validation Scripts:
+   a. single_Phase.py -> Uses to extract vortex shedding frequency and hydrodynamic force coefficients which are later used for comparison against prior studies.
+   
+   b. bouscasse_v2.py -> Corresponds to comparison of solver results with study by Bouscasse et al. (SPH Modelling of viscous flow past a circular cylinder interactin with a free-surface)
 
-   a. bouscasse_v2.py -> Corresponds to comparison of solver results with study by Bouscasse et al. (SPH Modelling of viscous flow past a circular cylinder interactin with a free-surface)
+   c. reichl.py -> Corresponds to comparison of solver results with study by Reichl et al. (Flow past a cylinder close to a free-surface)
 
-   b. reichl.py -> Corresponds to comparison of solver results with study by Reichl et al. (Flow past a cylinder close to a free-surface)
 3. Experimental Processing (Note: this is not processing experimental data, only extracting useful information from the binary obtained using the solver)
 
    a. amplitude_contour.py -> Used to extract interface deformation data from the output binary files.
