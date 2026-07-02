@@ -18,6 +18,8 @@ The structure of this repository is as follows:
 
    c. wave_tracking.py -> Used to identify wave-tracks, construct a linear fit, overlay on the amplitude contour, and compare wave-speeds against those obtained via the linear dispersion relation.
 
-   d. grid_resolution.py -> Used to compare various grid resolutions (coarse, medium, fine) and their effect on the flow development,
+   d. grid_resolution.py -> Used to compare various grid resolutions (coarse, medium, fine) and their effect on the flow development.
+
+   e. local_froude.py -> Used to visualise the local froude number profile at various timesteps.
 
 Note: use of AI (Claude) was primarily for assisting in writing loops, generating skeleton scripts and fine-tuning of parameters (threshold selection, etc.)
