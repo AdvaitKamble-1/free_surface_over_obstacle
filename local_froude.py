@@ -1,5 +1,4 @@
-# Local Froude number profile — FDM results
-# Replicates the froude_snapshots_abs plot from read_eta_history.py
+# Local Froude number profile - FDM results
 
 # Author: Advait Kamble
 # Date: 27/06/2026
